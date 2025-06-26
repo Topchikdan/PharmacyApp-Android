@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FAFAFA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Корзина"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#181818"
+        android:paddingStart="32dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintBottom_toTopOf="@id/llBottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvSumLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Сумма"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#181818"/>
+            <TextView
+                android:id="@+id/tvSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 ₽"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#181818"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#2176FF"
+            android:text="Перейти к оформлению заказа"
+            android:textAllCaps="false"
+            android:textSize="17sp"
+            android:textColor="#FFF"
+            android:fontFamily="sans-serif-medium"
+            android:elevation="2dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

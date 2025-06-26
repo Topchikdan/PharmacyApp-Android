@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Exam" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/lightGray</item>
+        <item name="android:textColorPrimary">#232323</item>
+        <item name="android:textColorSecondary">@color/profileSubtitle</item>
+    </style>
+</resources>

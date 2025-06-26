@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/manualBottomNav"
+        />
+
+    <LinearLayout
+        android:id="@+id/manualBottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/navHome"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            >
+            <ImageView
+                android:id="@+id/icHome"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_home"
+                android:tint="@color/nav_inactive"/>
+            <TextView
+                android:id="@+id/tvHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Главная"
+                android:textSize="13sp"
+                android:textColor="@color/nav_inactive"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navCart"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            >
+            <ImageView
+                android:id="@+id/icCart"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_cart"
+                android:tint="@color/nav_inactive"/>
+            <TextView
+                android:id="@+id/tvCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Корзина"
+                android:textSize="13sp"
+                android:textColor="@color/nav_inactive"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navProfile"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            >
+            <ImageView
+                android:id="@+id/icProfile"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_profile"
+                android:tint="@color/nav_inactive"/>
+            <TextView
+                android:id="@+id/tvProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Профиль"
+                android:textSize="13sp"
+                android:textColor="@color/nav_inactive"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

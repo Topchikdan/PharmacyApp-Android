@@ -1,0 +1,19 @@
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorAccent">#2963FF</color>
+    <color name="grayText">#828282</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="menuGray">#BDBDBD</color>
+    <color name="profileSubtitle">#9E9E9E</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="logoutRed">#F04438</color>
+    <color name="cardStroke">#E0E0E0</color>
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="buttonBlue">#2963FF</color>
+    <color name="buttonBluePressed">#194ccc</color>
+    <color name="background">#F8F9FB</color>
+    <color name="nav_active">#2563eb</color>
+    <color name="nav_inactive">#B0B0B0</color>
+    <color name="black">#000000</color>
+    <color name="red">#F44336</color>
+</resources>

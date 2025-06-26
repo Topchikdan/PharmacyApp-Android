@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exam</string>
+
+    <string name="title_services">Каталог услуг</string>
+    <string name="btn_add">Добавить</string>
+    <string name="duration_1_day">1 день</string>
+    <string name="duration_2_days">2 дня</string>
+
+    <string name="title_cart">Корзина</string>
+    <string name="label_sum">Сумма</string>
+    <string name="btn_checkout">Перейти к оформлению заказа</string>
+    <string name="cnt_patient">%1$d пациент</string>
+
+    <string name="nav_home">Главная</string>
+    <string name="nav_cart">Корзина</string>
+    <string name="nav_profile">Профиль</string>
+
+    <string name="profile_name">Эдуард</string>
+    <string name="profile_phone">+7 900 800‑55‑33</string>
+    <string name="profile_email">email@gmail.com</string>
+    <string name="profile_orders">Мои заказы</string>
+    <string name="profile_cards">Медицинские карты</string>
+    <string name="profile_addresses">Мои адреса</string>
+    <string name="profile_settings">Настройки</string>
+    <string name="profile_faq">Ответы на вопросы</string>
+    <string name="profile_privacy">Политика конфиденциальности</string>
+    <string name="profile_terms">Пользовательское соглашение</string>
+    <string name="profile_logout">Выход</string>
+</resources>
