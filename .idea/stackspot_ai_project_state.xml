@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectStateService">
+    <option name="lastUpdate" value="Wed Jun 24 13:45:35 MSK 2026" />
     <option name="data">
-      <map>
-        <entry key="platabush@mail.ru">
-          <value>
-            <ProjectStateData>
-              <option name="projectId" value="01JWGSFHQX0QMQN6ES773S13WX" />
-            </ProjectStateData>
-          </value>
-        </entry>
-        <entry key="unauthenticated">
-          <value>
-            <ProjectStateData>
-              <option name="projectId" value="01JSBGD9VX7GP92N7AZ1M3919S" />
-            </ProjectStateData>
-          </value>
-        </entry>
-      </map>
+      <entry key="unauthenticated">
+        <ProjectStateData>
+          <option name="projectId" value="01KVWKRFMX60EHGYQBBJ42K2E7" />
+        </ProjectStateData>
+      </entry>
     </option>
   </component>
 </project>
